@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         vista1 = (TextView) findViewById(R.id.textView);
-        boton1 = (Button) findViewById(R.id.button);
+        boton1 = (Button) findViewById(R.id.button2);
         boton1.setOnClickListener(this);
     }
 
